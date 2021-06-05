@@ -1,0 +1,94 @@
+
+/* Common-code-end */
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+}
+.login-30{
+    font-size: 3rem;
+    font-weight: 500;
+background: linear-gradient(to right, #098CCC 0%, #252463 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.login-14{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:var(--primary-color);
+}
+
+
+.login-container{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.login-container .login-div-one{
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/hero-img9.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.login-container .login-div-two{
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #098ccc, #1571b4, #1f579a, #243d7f, #252463);
+    position: absolute;
+    opacity: 0.3;
+}
+.login-container .login-div-three{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.login-div-three .login-card{
+    background: white;
+    border-radius: 16px;
+}
+.login-div-three .login-card input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    font-size: 1.4rem;
+    border-bottom: 1px solid var(--second-color);
+    outline: none;
+    padding: 0px 10px 0px 35px;
+}
+::placeholder{
+    color: var(--second-color);
+}
+.login-div-three .login-card .input-icon{
+    /* border: 2px solid red; */
+    height: 40px;
+}
+.login-div-three .input-icon .email-icon,.pass-icon{
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 40px;
+   margin-left: 10px;
+   color: rgb(145, 145, 145);
+}
+.login-div-three .input-icon .hide-icon{
+    position: absolute;
+    font-size: 1.4rem;
+    line-height: 40px;
+    margin-left: 370px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.login-div-three .pass-icon{
+    font-size: 1.6rem;
+}
+.login-div-three .login-btn{
+    width: 380px;
+    height: 50px;
+    background-image: radial-gradient(circle, #098ccc, #1571b4, #1f579a, #243d7f, #252463);
+    border-radius: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+}

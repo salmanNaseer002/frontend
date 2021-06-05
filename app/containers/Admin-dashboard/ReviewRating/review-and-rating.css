@@ -1,0 +1,111 @@
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+    --table-shadow:5px 5px 6px #cfcfcf, 5px 5px 6px #ffffff;
+
+}
+.dash-14{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+.dash-17-dark{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+}
+/* content section start */
+
+.review-page-content{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+.review-page-content .dash-card{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+.review-page-content .search-input-div{
+    height: 35px;
+  }
+  .review-page-content .search-input-div i{
+    position: absolute;
+    line-height: 35px;
+    padding: 0px 0px 0px 10px;
+    font-size: 1.3rem;
+    color:gray;
+    
+  }
+  .review-page-content .search{
+    width: 25rem;
+    height: 35px;
+    padding: 0px 5px 0px 35px;
+    font-size: 1.3rem;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+
+  }
+.table-row{
+    overflow-x: auto;
+}
+.review-rating-d-table-container{
+    min-width: 1200px;
+    background-color: white;
+    border-radius:10px;
+    padding:0px 2px;
+    padding:10px;
+    border-radius:10px ;
+    box-shadow: var(--table-shadow) ;
+   }
+    .review-detail-table{
+     background-color: white;
+   
+    
+   }
+    .review-detail-table td{
+     border-bottom: 1px solid  gray;
+   }
+    .review-detail-table .bdr{
+     border-left:1px solid gray;
+   
+   }
+    .review-detail-table thead{
+     background-color:var(--primary-color);
+     color: white;
+   
+   }
+    .review-detail-table thead th,td{
+     padding:10px 7px;
+     font-size: 1.2rem;
+     font-weight: 450;
+     width: 12%;
+   }
+   .review-detail-table th{
+     padding: 10px 0px !important;
+     font-weight: 600 !important;
+   }
+
+   /* Table-filter-sec-start */
+.review-page-content .filter-sec .heading{
+       font-size: 1.4rem;
+       color: var(--primary-color);
+   }
+.review-page-content .filter-sec label{
+    font-size: 1.2rem;
+    color: gray;
+    font-weight: 500;
+}
+.review-page-content .filter-sec input{
+  height: 30px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  padding:0px 10px;
+  border: 1px solid gray;
+}
+.checked-star{
+       color: orange;
+   }

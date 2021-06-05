@@ -1,0 +1,150 @@
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+    --table-shadow:5px 5px 6px #cfcfcf, 5px 5px 6px #ffffff;
+}
+.company-page-content{
+    width: 91%;
+    margin: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 100px !important;
+}
+.company-page-content .search-input-div{
+  height: 35px;
+}
+.company-page-content .search-input-div i{
+  position: absolute;
+    line-height: 35px;
+    padding: 0px 0px 0px 10px;
+    font-size: 1.3rem;
+    color:gray;
+  
+}
+.company-page-content .search{
+  width: 25rem;
+  height: 35px;
+  padding: 0px 5px 0px 35px;
+  font-size: 1.3rem;
+  border: 1px solid gray;
+  outline: none;
+  background-color: white;
+  border-radius: 5px;
+}
+.table-row{
+    overflow-x: auto;
+}
+.table-container{
+    min-width: 980px;
+    background-color: white;
+    border-radius:10px;
+    padding:0px 2px;
+    padding:10px;
+    border-radius:10px ;
+    box-shadow: var(--table-shadow) ;
+
+   }
+    .comapny-table{
+     background-color: white;
+   
+    
+   }
+    .comapny-table td{
+     border-bottom: 1px solid  gray;
+   }
+    .comapny-table .bdr{
+     border-left:1px solid gray;
+   
+   }
+    .comapny-table thead{
+     background-color:var(--primary-color);
+     color: white;
+   
+   }
+    .comapny-table thead th,td{
+     padding:10px 20px;
+     font-size: 1.2rem;
+     font-weight: 450;
+   }
+   .comapny-table th{
+     padding: 10px 0px !important;
+     font-weight: 600 !important;
+   }
+  
+   /* Add Company Modal code start */
+   .company-page-content .add-company-btn{
+    background: var(--primary-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    border: none;
+    height: 35px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+   }
+   .company-add-modal .heading{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .company-add-modal .add-c-input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0px 7px 0px 15px;
+    font-size: 13px;
+    outline: none;
+  }
+  .company-add-modal label{
+    font-size: 13px;
+  }
+  .company-add-modal button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #098ccc, #1571b4, #1f579a, #243d7f, #252463);
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+  }
+   /* Add Company Modal code start */
+   /* Edit-company-model-start */
+   .company-edit-modal .heading{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .company-edit-modal .edit-c-input{
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 0px 7px 0px 15px;
+    font-size: 13px;
+    outline: none;
+  }
+  .company-edit-modal label{
+    font-size: 13px;
+  }
+  .company-edit-modal button{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #098ccc, #1571b4, #1f579a, #243d7f, #252463);
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: white;
+    font-weight: 500;
+  }
+   /* Edit-company-model-End */
+ 
+
+
+   @media screen and (max-width:575px){
+    .company-page-content .search{
+      width: 18rem;
+    }
+   }

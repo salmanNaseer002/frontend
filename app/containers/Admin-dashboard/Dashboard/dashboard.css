@@ -1,0 +1,82 @@
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+    --table-shadow:5px 5px 6px #cfcfcf, 5px 5px 6px #ffffff;
+
+}
+.dash-14{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: white;
+}
+.dash-17-dark{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+}
+/* content section start */
+
+.dashboard-page-content{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+.dashboard-page-content .dash-card{
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+.table-row{
+    overflow-x: auto;
+}
+.table-container{
+    min-width: 980px;
+    background-color: white;
+    border-radius:10px;
+    padding:0px 2px;
+    padding:10px;
+    border-radius:10px ;
+    box-shadow: var(--table-shadow) ;
+   }
+   .review-rating-table-container{
+       min-width: 1200px;
+       background-color: white;
+       border-radius:10px;
+       padding:0px 2px;
+       padding:10px 5px;
+       border-radius:10px ;
+       box-shadow: var(--table-shadow) ;
+   }
+   .review-rating-table-container th{
+       width: 12%;
+   }
+    .dashboard-table{
+     background-color: white;
+   
+    
+   }
+    .dashboard-table td{
+     border-bottom: 1px solid  gray;
+   }
+    .dashboard-table .bdr{
+     border-left:1px solid gray;
+   
+   }
+    .dashboard-table thead{
+     background-color:var(--primary-color);
+     color: white;
+   
+   }
+    .dashboard-table thead th,td{
+     padding:10px 20px;
+     font-size: 1.2rem;
+     font-weight: 450;
+   }
+   .dashboard-table th{
+     padding: 10px 0px !important;
+     font-weight: 600 !important;
+   }
+   .checked-star{
+       color: orange;
+   }

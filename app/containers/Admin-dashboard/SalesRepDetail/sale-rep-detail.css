@@ -1,0 +1,68 @@
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+}
+
+/* content section start */
+.c-broker-detail-page-content{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+.c-broker-detail-page-content .heading{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+}
+.c-broker-detail-page-content .title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:var(--primary-color);
+    text-decoration: underline;
+}
+.c-broker-detail-page-content .discription{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gray;
+}
+
+.table-row{
+    overflow-x: auto;
+}
+.table-container{
+    min-width: 880px;
+    background-color: white;
+    border-radius:10px;
+    padding:0px 2px;
+    padding:10px;
+    border-radius:10px ;
+    box-shadow: var(--table-shadow) ;
+
+   }
+    .table-container{
+     background-color: white;
+    
+   }
+    .table-container td{
+     border-bottom: 1px solid  gray;
+   }
+    .table-container .bdr{
+     border-left:1px solid gray;
+   
+   }
+    .table-container thead{
+     background-color:var(--primary-color);
+     color: white;
+   
+   }
+    .table-container thead th,td{
+     padding:10px 20px;
+     font-size: 1.2rem;
+     font-weight: 450;
+
+   }
+   .table-container th{
+     font-weight: 600 !important;
+   }

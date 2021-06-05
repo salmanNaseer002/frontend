@@ -1,0 +1,30 @@
+:root{
+    --primary-color:#098CCC;
+    --second-color:#252463;
+}
+
+/* content section start */
+.o-detail-card{
+    width: 90%;
+    margin: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+    margin-top: 100px;
+}
+.o-detail-card .heading{
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: black;
+}
+.o-detail-card .o-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:var(--primary-color);
+    text-decoration: underline;
+
+}
+.o-detail-card .o-discription{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gray;
+}
